@@ -1,0 +1,166 @@
+(footprint "Mini_PWM_Controller"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -8.5 -13 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1e89306d-81ca-4227-9ed5-8eb3a634a5c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Mini_PWM_Controller"
+		(at -8.5 -11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "92e00059-b57c-4991-9675-e73958eb9aea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -8.5 -12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b07d26a-8026-474d-a94f-fa3bc5cfb862")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -8.5 -12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb58556b-dbcd-4597-9baa-93bcad762775")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -8.5 -12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9123fa4-9210-4ce2-8a6b-ed1144dc8f92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 -30)
+		(end 20 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1be6b4ce-c844-4184-abca-79bb90532269")
+	)
+	(fp_text user "Mini PWM Controller"
+		(at 2.5 -16.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c2b15cc2-b2b4-4e03-9134-a09d3d9da854")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -8.5 -10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "08b24c76-8237-4d05-9be7-54d1a873f35e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 2.5 -2.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "616ce886-d843-426c-b533-36d1c4caad26")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 -2.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "531b1ac6-6690-4bbb-8663-cb773db780cb")
+	)
+	(pad "3" thru_hole circle
+		(at 12.5 -2.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "44bf9092-e854-4391-be38-723ebaf0e024")
+	)
+	(pad "4" thru_hole circle
+		(at 17.5 -2.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f5fff4a2-f64a-41c6-a311-7bf86e23341a")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F&B.Cu")
+		(uuid "f91fd02b-9b0f-4b01-8b4d-902f31db25c9")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0 -3.5) (xy 20 -3.5) (xy 20 -30) (xy 0 -30)
+			)
+		)
+	)
+)

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Connectors_Custom")(type "KiCad")(uri "${KIPRJMOD}/libs/Footprints/Connectors_Custom.pretty")(options "")(descr ""))
+  (lib (name "Converters_DCDC_Custom")(type "KiCad")(uri "${KIPRJMOD}/libs/Footprints/Converters_DCDC_Custom.pretty")(options "")(descr ""))
+)

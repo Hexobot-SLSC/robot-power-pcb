@@ -1,0 +1,170 @@
+(footprint "L2596S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "U"
+		(at 1 -24.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a4d36bc5-831b-4ed0-b3c0-a59be2ad3612")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L2596S"
+		(at 2.5 -26 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4da0044-0e6f-49f9-a86d-7beb3413b8de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 2.5 -27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91df56a9-af22-47c8-95cc-fcd8e6d50cc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2.5 -27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d295543e-1844-48a7-955f-f4a08f6aefe3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2.5 -27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28b7195b-9f0f-4352-9b91-13d53dd43e42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 -23)
+		(end 48.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f1e757dd-7227-48e8-9606-29bf48c7c32a")
+	)
+	(fp_text user "IN -> OUT"
+		(at 18 -8 0)
+		(unlocked yes)
+		(layer "F.Cu")
+		(uuid "1f9154f0-8acc-47b4-8251-b888f0634b72")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "L2596S"
+		(at 20 -11 0)
+		(unlocked yes)
+		(layer "F.Cu")
+		(uuid "b008a864-91e0-48e8-a6db-98f12cda3385")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 1 -22)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fabade19-ab79-42f7-97a3-0f7f435e74c4")
+	)
+	(pad "2" thru_hole rect
+		(at 1 -1)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "77d12bbe-6850-45f5-82e3-745655a06223")
+	)
+	(pad "3" thru_hole rect
+		(at 47.5 -22)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "83d7b4e2-4f88-4778-a545-e1747d083de5")
+	)
+	(pad "4" thru_hole rect
+		(at 47.5 -1)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2d79b98-50f4-4841-a237-d8beeae82eca")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F&B.Cu")
+		(uuid "8f4b97ac-b6b9-4650-875b-f2d99e2422ff")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 2 -21) (xy 2 -23) (xy 46.5 -23) (xy 46.5 -21) (xy 48.5 -21) (xy 48.5 -2) (xy 46.5 -2) (xy 46.5 0)
+				(xy 2 0) (xy 2 -2) (xy 0 -2) (xy 0 -21)
+			)
+		)
+	)
+)
