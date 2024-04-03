@@ -1,0 +1,225 @@
+(footprint "DTD302-V2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6 -13.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6de7debb-7d0d-42e5-b0d4-d0632ce8cc25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DTD302-V2"
+		(at 6 -12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e71ca3b0-e132-4da5-b2c5-f583c9f4e23e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 5.5 38 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0787cc7-33b6-4017-aa93-d88a072baea6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 5.5 38 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d96d8635-0971-47da-9d81-45a7e1c22e76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 5.5 38 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58384aa6-15fd-47f9-b21f-c4be25c92218")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 0)
+		(end 60 45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f1310012-42aa-439d-9782-b9232455fa71")
+	)
+	(fp_circle
+		(center 3 3)
+		(end 4.75 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "bc78832e-25f8-46d3-9501-19fecde26488")
+	)
+	(fp_circle
+		(center 3 42)
+		(end 4.75 42)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "681db000-56f0-433e-a9e6-0e06958192d0")
+	)
+	(fp_circle
+		(center 57 3)
+		(end 58.75 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "a31f369e-9ecd-420e-95ee-670e85922a50")
+	)
+	(fp_circle
+		(center 57 42)
+		(end 58.75 42)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "8667a2b7-6821-46d9-8ba6-fd728789b28b")
+	)
+	(fp_text user "IN -> OUT"
+		(at 24.5 25.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3db90bee-8f3c-4e88-993d-9da85e92a0e6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "DTD302-V2"
+		(at 24.5 22.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "aae1ef04-208c-4ae2-a157-819a0d9d6d68")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6 -10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8b569066-4c68-438b-a6da-8c0e0a5e350e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 11.15 20.15)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e40bd81f-924f-4a33-9e0e-8e770ff90429")
+	)
+	(pad "2" thru_hole circle
+		(at 11.15 24.85)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2effe3a5-d679-4117-85c8-d01e0e8c5aa9")
+	)
+	(pad "3" thru_hole circle
+		(at 48.85 13.65)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf13e6a8-e9a2-4653-a207-c088aa8c3aca")
+	)
+	(pad "4" thru_hole circle
+		(at 48.85 18.65)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "69b1f080-0944-4bb3-998f-030efafadeef")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "c8a04545-8c3e-4431-b5bf-8c3d08bebaa4")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0 0) (xy 60 0) (xy 60 45) (xy 0 45)
+			)
+		)
+	)
+)

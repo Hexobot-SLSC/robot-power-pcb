@@ -70,7 +70,7 @@
 	(attr through_hole)
 	(fp_rect
 		(start 0 -23)
-		(end 48.5 0)
+		(end 43 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -82,7 +82,7 @@
 	(fp_text user "IN -> OUT"
 		(at 18 -8 0)
 		(unlocked yes)
-		(layer "F.Cu")
+		(layer "F.SilkS")
 		(uuid "1f9154f0-8acc-47b4-8251-b888f0634b72")
 		(effects
 			(font
@@ -95,7 +95,7 @@
 	(fp_text user "L2596S"
 		(at 20 -11 0)
 		(unlocked yes)
-		(layer "F.Cu")
+		(layer "F.SilkS")
 		(uuid "b008a864-91e0-48e8-a6db-98f12cda3385")
 		(effects
 			(font
@@ -108,32 +108,32 @@
 	)
 	(pad "1" thru_hole rect
 		(at 1 -22)
-		(size 1.524 1.524)
-		(drill 0.762)
+		(size 2 2)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "fabade19-ab79-42f7-97a3-0f7f435e74c4")
 	)
 	(pad "2" thru_hole rect
 		(at 1 -1)
-		(size 1.524 1.524)
-		(drill 0.762)
+		(size 2 2)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "77d12bbe-6850-45f5-82e3-745655a06223")
 	)
 	(pad "3" thru_hole rect
-		(at 47.5 -22)
-		(size 1.524 1.524)
-		(drill 0.762)
+		(at 42 -22)
+		(size 2 2)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "83d7b4e2-4f88-4778-a545-e1747d083de5")
 	)
 	(pad "4" thru_hole rect
-		(at 47.5 -1)
-		(size 1.524 1.524)
-		(drill 0.762)
+		(at 42 -1)
+		(size 2 2)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "b2d79b98-50f4-4841-a237-d8beeae82eca")
@@ -141,7 +141,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu")
+		(layer "F.Cu")
 		(uuid "8f4b97ac-b6b9-4650-875b-f2d99e2422ff")
 		(hatch edge 0.5)
 		(connect_pads
@@ -162,8 +162,8 @@
 		)
 		(polygon
 			(pts
-				(xy 2 -21) (xy 2 -23) (xy 46.5 -23) (xy 46.5 -21) (xy 48.5 -21) (xy 48.5 -2) (xy 46.5 -2) (xy 46.5 0)
-				(xy 2 0) (xy 2 -2) (xy 0 -2) (xy 0 -21)
+				(xy 3.5 -19.5) (xy 3.5 -23) (xy 39.5 -23) (xy 39.5 -19.5) (xy 43 -19.5) (xy 43 -3.5) (xy 39.5 -3.5)
+				(xy 39.5 0) (xy 3.5 0) (xy 3.5 -3.5) (xy 0 -3.5) (xy 0 -19.5)
 			)
 		)
 	)
