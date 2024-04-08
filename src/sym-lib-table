@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "DCDC_Converters_Custom")(type "KiCad")(uri "${KIPRJMOD}/libs/Symbols/DC_DC_Converters_Custom.kicad_sym")(options "")(descr ""))
   (lib (name "Connectors_Custom")(type "KiCad")(uri "${KIPRJMOD}/libs/Symbols/Connectors_Custom.kicad_sym")(options "")(descr ""))
+  (lib (name "SRA-05VDC-CL")(type "KiCad")(uri "${KIPRJMOD}/libs/Symbols/SRA-05VDC-CL.kicad_sym")(options "")(descr ""))
 )
